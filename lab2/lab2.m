@@ -135,9 +135,9 @@ end
 
 
 figure('Position', [200, 200, 1000, 700]);
-surf( H, F, R_DL', 'FaceColor', 'red')
+surf( heights, F, R_DL', 'FaceColor', 'red')
 hold on;
-surf( H,F, R_UL', 'FaceColor', 'blue');
+surf( heights,F, R_UL', 'FaceColor', 'blue');
 ylabel('Частота, МГц');
 xlabel('Высота BS, м');
 zlabel('Радиус покрытия, м');
